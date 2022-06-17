@@ -268,7 +268,7 @@ heartBtn.addEventListener("click", function () {
 
 const dimondBtn = document.querySelector("#dimond-button");
 dimondBtn.addEventListener("click", function () {
-  var box = document.getElementById("D"); // what is this for
+  var box = document.getElementById("D"); 
   console.log("D");
 
   document.getElementById("fourth-spot").style.display = "block";
